@@ -50,10 +50,19 @@ div {
 
 section.texto {
     
-box-shadow: 3px 3px 8px black;
-border-radius: 9px;
+    box-shadow: 3px 3px 8px black;
+    border-radius: 9px;
+    background: rgb(8,166,231);
+    background: linear-gradient(0deg, rgba(8,166,231,1) 0%, rgba(116,254,189,1) 100%);
+}
 
-    
+
+section#video {
+    text-align: center;
+}
+
+section#video > iframe {
+    padding: 10px;
 }
 
 section.texto > p {
@@ -64,11 +73,13 @@ section.texto > p {
     padding-right: 20px;
     margin: center;
     font-family: var(--fonte1);
+    line-height: 2em;
 }
 
 section#txt1 {
-    background: rgb(34,193,195);
-    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(8,166,231);
+    background: linear-gradient(0deg, rgba(8,166,231,1) 0%, rgba(116,254,189,1) 100%);
+
 
 }
 
@@ -81,8 +92,10 @@ h1 {
 
 
 section#txt2 {
-    background: rgb(253,187,45);
-    background: radial-gradient(circle, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+    
+    background: rgb(8,166,231);
+    background: linear-gradient(0deg, rgba(8,166,231,1) 0%, rgba(116,254,189,1) 100%);
+
 
 }
 
@@ -128,6 +141,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--fonte1);
+    
 }
 
 a {
